@@ -1,0 +1,173 @@
+
+
+nav{
+	padding: 20px;
+	font-size: 13px;
+	color: #000;
+}
+
+.centre{
+  margin: auto;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+#googleLogo {
+  padding-top: 80px;
+  margin-top: 50px;
+  display: block;
+}
+
+
+
+li{
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-decoration: none;
+}
+
+.signIn{
+  
+	background-color:#4285f4;
+  border:none;
+  border-radius: 2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:7px 12px;
+	text-decoration:none;
+	
+}
+
+li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.appImage{
+  width: 25px;
+  height: 25px;
+  margin-bottom: -8px;
+}
+
+.searchBar{
+  margin: 25px auto;
+  margin-top: 20px;
+	height: 45px;
+	width: 570px;
+	border: .5px solid #DCDCDC;
+	border-radius: 25px;
+	display: flex;
+}
+
+.searchBar:hover{
+  box-shadow: 0 0 5px #DCDCDC; 
+}
+
+.magnifying_glass{
+  width: 25px;
+	height: 25px;
+	margin: auto 10px;
+}
+
+.mic{
+  margin: auto 20px auto;
+	width: 14px;
+	height: 20px;
+}
+
+.mic:hover{
+  cursor: pointer;
+}
+
+input {
+	height: 40px;
+	width: 500px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+
+.buttons{
+  text-align: center;
+}
+
+.button{
+  background-color:#F5F5F5;
+  margin: 5px 5px;
+  margin-top: 0px;
+  border:none;
+  border-radius: 2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#5F6368;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:10px 16px;
+  text-decoration:none;
+}
+
+.button:hover{
+  box-shadow: 0 0 5px #DCDCDC;
+}
+
+.language{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.googleOfferedIn{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:13px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.languages{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:13px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: rgb(23, 23, 190);
+}
+
+.singapore{
+  position: fixed;
+  bottom: 54px;
+  font-family:Arial, Helvetica, sans-serif;
+	width: 97%;
+	background-color: #F5F5F5;
+	color: #5F6368;
+  padding: 20px;
+	font-size: 14px;
+  border: 1px solid #e4e4e4;
+}
+
+.footer{
+  position: fixed;
+  font-family:Arial, Helvetica, sans-serif;
+	left: 0;
+	bottom: 0;
+	width: 97%;
+	background-color: #F5F5F5;
+	color: #5F6368;
+  padding:20px;
+	font-size: 14px;
+  border: 1px solid #e4e4e4;
+}
+
