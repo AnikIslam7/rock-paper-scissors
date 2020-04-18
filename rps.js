@@ -46,21 +46,27 @@ function playRound(playerSelection){
     if (playerSelection == "rock" && computerSelection == "scissor"){
         playerScore++;
         roundUpdate.textContent = "You win! Rock beats scissor.";
+
     } else if (playerSelection == "rock" && computerSelection == "paper"){
         computerScore++;
         roundUpdate.textContent = "You lose! Paper beats rock.";
+
     } else if (playerSelection == "paper" && computerSelection == "rock"){
         playerScore++;
         roundUpdate.textContent = "You win! Paper beats rock.";
+
     } else if (playerSelection == "paper" && computerSelection == "scissor"){
         computerScore++;
         roundUpdate.textContent = "You lose! Scissor beats paper.";
+
     } else if (playerSelection == "scissor" && computerSelection == "paper"){
         playerScore++;
         roundUpdate.textContent = "You win! Scissor beats paper.";
+
     } else if (playerSelection == "scissor" && computerSelection == "rock"){
         computerScore++;
         roundUpdate.textContent = "You lose! Rock beats scissor.";
+        
     } else {
         roundUpdate.textContent = "It's a tie!" + " You both picked " + playerSelection + ".";
     }
