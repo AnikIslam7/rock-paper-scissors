@@ -1,0 +1,71 @@
+html{
+    font-size: 10px;
+    background: url(https://i.pinimg.com/originals/7c/31/05/7c31052768c5ed41602ede538fb87dcb.jpg) center;
+    background-size: 170%;
+}
+
+  
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    text-align:center;
+    text-shadow: 0 0 .5rem black;
+    color: white;
+    font-size: 4.5rem;
+}
+
+.playersChoice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rock img{
+    display: block;
+    height: 150px;  
+    width: 200px;
+}
+
+#paper img{
+    display: block;
+    height: 150px;  
+    width: 200px;
+}
+
+#scissor img{
+    display: block;
+    height: 150px;  
+    width: 200px;
+}
+
+#rock:hover{
+    transform: scale(1.1, 1.1);
+}
+
+#paper:hover{
+    transform: scale(1.1, 1.1);
+}
+
+#scissor:hover{
+    transform: scale(1.1, 1.1);
+}
+
+#resultsText{
+    font-size: medium;
+    border: 2px solid #1a1a1a;
+    border-radius: 20px;
+    padding: 10px;
+    height: 100px;
+    width: 500px;
+    margin: 20px auto;
+    background-color: beige;
+}
+
+
+
+
